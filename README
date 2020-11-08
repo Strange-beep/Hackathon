@@ -1,0 +1,9 @@
+This is a simplified model of various planetary systems. We included four exoplanetary systems and our own solar system. Each star system is unique. We used a lot of 
+simplification, like applying two-body newtonian gravity only, animating circular orbits and not elliptical ones, and ignoring many body interactions.
+
+It is meant to be very visual, intuitive and engageing. However, you can still learn a lot about the star and the planets by reading the plentiful amount of information at the 
+bottom of the screen. 
+
+And, just for fun, we added a little rocket that you can fly around the planetary system with.
+
+This program's target audience is elementary school students. This can teach them about gravity, our solar system, seasons, and even the rest of our universe.
