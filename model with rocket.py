@@ -191,7 +191,7 @@ class Background:
         """
         Attribution du .png
         """
-        image = pygame.image.load("data/other space background cropped.jpg").convert()
+        image = pygame.image.load("other space background cropped.jpg").convert()
         return image
 
     def draw(self, surface):
@@ -238,7 +238,7 @@ class App:
         self.keys = pygame.key.get_pressed()
 
         # creation du rectangle
-        self.rectangle = Rocket("data/rocket_small.png")
+        self.rectangle = Rocket("rocket_small.png")
 
         # creation du background ( ou load image)
         self.background = Background()
@@ -263,7 +263,7 @@ class App:
         print("Observe the planetary systems of exoplanets! Pick a star, and the model will appear in another window.")
 
         question = str(input("What system would you like to observe?\n\n1. Our Solar System\n2. The Earth by itself (for comparison)\n3. Proxima Centauri\n4. Epsilon Eridani\n5. Tau Ceti\n6. Gliese 876\n\n"))
-        filename = "data/" + question + ".txt"
+        filename = question + ".txt"
 
         return filename
 
